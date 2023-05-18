@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <locale.h>
+
+
+int main(){
+	
+	setlocale(LC_ALL,"Portuguese");
+
+char res;
+
+
+
+	printf("Bem Vindo ao jogo dos verbos!\n\n");
+system("pause");
+printf("=========================================QUESTÃO 1=========================================\n \n");
+		printf("Complete a frase com alternativa correta!\n \n");
+	printf("A menina _______ com sua boneca.\n");
+	printf("Letra A: Brinca\n Letra B: Corre\n Letra C: Pula\n Letra D: Voa\n");
+	scanf("%c", &res);
+
+if (res == 'a'|| res == 'A') {
+        printf("Está Correto, Muito bem! \n");
+    } else {
+        printf("Você errou, mais atenção da proxima! \n");
+    }
+system("PAUSE");
+system("CLS");
+
+	printf("Vamos para a proxima questão!!. \n \n");
+	printf("=========================================QUESTÃO 2=========================================\n \n");
+	printf("Complete a frase com alternativa correta!\n \n");
+	printf("A borboleta ________ suas asas.\n");
+	printf("Letra A: Voa\n Letra B: Nada\n Letra C: Corre\n Letra D: Bate\n");
+	
+	scanf("%s", &res);
+	
+	if (res == 'd'|| res == 'D') {
+        printf("Você errou, mais atenção da proxima! \n");
+    } else {
+        printf("Você errou, mais atenção da proxima! \n");
+    }
+	return(0);		
+}
